@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 
-<!--[if lt IE 7 ]> <html lang="{$lang}" class="no-js ie6"> <![endif]-->
-<!--[if IE 7 ]>    <html lang="{$lang}" class="no-js ie7"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="{$lang}" class="no-js ie8"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="{$lang}" class="no-js ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="{$lang}" class="no-js"> <!--<![endif]-->
+<html lang="{$lang}" class="no-js">
 <head>
     <!--title-->
 	<title>{block name="title"} - {$uni_name} - {$game_name}{/block}</title>
@@ -22,8 +18,8 @@
     <!--keypress-->
     <script type="text/javascript" src="./scripts/base/keypress.js"></script>
     <!--jquery-->
-    <link rel="stylesheet" type="text/css" href="./styles/resource/css/base/jquery_1.8.18.css">
-    <script type="text/javascript" src="./scripts/base/jquery.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
     <script type="text/javascript" src="./scripts/base/jquery.ui.js"></script>
 	<script type="text/javascript" src="./scripts/base/jquery.cookie.js"></script>
     <!--fancybox-->

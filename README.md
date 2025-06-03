@@ -42,7 +42,8 @@ Want to keep abreast of the latest developments? Then come visit us on [Discord]
 ## Local installation
 
 - Clone the repo: `git clone https://github.com/New-Star/New-Star`
-- Install components: `apt install apache2 php7.3 php7.3-gd php7.3-fpm php7.3-mysql php7.3-curl php-ds libapache2-mod mysql-server`
+- Install components: `apt install apache2 php8.3 php8.3-gd php8.3-fpm php8.3-mysql php8.3-curl php-ds libapache2-mod-php8.3 mysql-server`
+- Run dependencies: `composer install`
 - Setup mysql: `create user USER identified by PASSWORD; create database DB; grant all privileges on DB.* to USER;`
 - Set write privileges to dirs: `cache/`, `includes/`
 - Run wizard: `127.0.0.1/install/install.php`
